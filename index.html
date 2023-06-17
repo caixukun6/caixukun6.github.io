@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://caixukun.rth1.one/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title></title>
+	<script src="./caixukun.rth1.one_files/jquery-3.4.1.min.js.下载"></script><style>
+		
+	</style><style type="text/css">#_copy{align-items:center;background:#4494d5;border-radius:3px;color:#fff;cursor:pointer;display:flex;font-size:13px;height:30px;justify-content:center;position:absolute;width:60px;z-index:1000}#select-tooltip,#sfModal,.modal-backdrop,div[id^=reader-helper]{display:none!important}.modal-open{overflow:auto!important}._sf_adjust_body{padding-right:0!important}.super_copy_btns_div{position:fixed;width:154px;left:10px;top:45%;background:#e7f1ff;border:2px solid #4595d5;font-weight:600;border-radius:2px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;z-index:5000}.super_copy_btns_logo{width:100%;background:#4595d5;text-align:center;font-size:12px;color:#e7f1ff;line-height:30px;height:30px}.super_copy_btns_btn{display:block;width:128px;height:28px;background:#7f5711;border-radius:4px;color:#fff;font-size:12px;border:0;outline:0;margin:8px auto;font-weight:700;cursor:pointer;opacity:.9}.super_copy_btns_btn:hover{opacity:.8}.super_copy_btns_btn:active{opacity:1}</style></head>
+	
+	
+	<body _c_t_j1="1">
+		<pre id="code">			$('style').remove()
+				let String = ''
+				for (let index = 0; index &lt; $(".pageNo").children().length; index++) {
+				String += $(".pageNo").children()[index].outerText + '\n'
+				}
+			alert(String)
+			document.addEventListener("click",() =&gt; { 
+			navigator.clipboard.writeText(String)
+			alert("已将正文写入至剪切板!")
+			})
+			alert("👇点击百度文库页面任意位置以复制预览的所有内容!!!")
+		</pre>
+		<button onclick="copy()">COPY!!!</button>
+	
+	<script>
+		function copy(){
+			navigator.clipboard.writeText($("#code").text())
+			alert("脚本复制成功!")
+		}
+	</script>
+
+</body></html>
